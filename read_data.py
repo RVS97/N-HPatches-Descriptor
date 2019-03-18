@@ -11,7 +11,7 @@ import keras
 from tqdm import tqdm
 import glob
 import random
-from keras.preprocessing import ImageDataGenerator
+from keras.preprocessing.image import ImageDataGenerator
 
 splits = ['a', 'b', 'c', 'view', 'illum']
 tps = ['ref','e1','e2','e3','e4','e5','h1','h2','h3','h4','h5',\
