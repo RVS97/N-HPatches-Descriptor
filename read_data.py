@@ -226,7 +226,7 @@ class DataGeneratorDesc(keras.utils.Sequence):
                 flipV = bool(np.random.randint(2))
                 flipH = bool(np.random.randint(2))
                 params = {'theta': thetaRand, 'flip_horizontal': flipH, 'flip_vertical': flipV}
-                img = np.expand_dim(img, -1)
+                img = np.expand_dims(img, -1)
                 img = augGen.apply_transform(img, params)
                 img = np.squeeze(img)
 
