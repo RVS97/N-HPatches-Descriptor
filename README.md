@@ -1,10 +1,9 @@
 # N-HPatches Baseline Code
 
-This repository contains the baseline code for the Deep Learning Coursework Project (EE3-25).
+This repository contains the code for the Deep Learning Coursework Project (EE3-25).
  
 The project aims to create a learned descriptor that is able to perform matching, verification and retrieval tasks successfully on N-HPatches. N-HPatches is a noisy version of [HPatches](https://github.com/hpatches) dataset.
 
-We will keep updating the repository, with more detailed explanations and improved code. Please, be aware of the version you are using and keep track of future changes. 
 <br />
 
 ## HPatches Dataset
